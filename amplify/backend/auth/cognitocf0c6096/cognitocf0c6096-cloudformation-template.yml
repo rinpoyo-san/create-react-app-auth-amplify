@@ -262,20 +262,6 @@ Resources:
             - '     });'
             - ' }'
             - '};'
- if (event.RequestType == 'Update' || event.RequestType == 'Create') {
-       const params = {
-            ClientId: event.ResourceProperties.clientId,
-            UserPoolId: event.ResourceProperties.userpoolId
-   };
-   identity.describeUserPoolClient(params)
-     .then((res) => {
-      response.send(event, context, response.SUCCESS, {'appSecret': res.UserPoolClient.ClientSecret}); 
-     })
-     .catch((err) => {
-       response.send(event, context, response.FAILURE, {err});
-     });
- }
-};
       Handler: index.handler
       Runtime: nodejs20.x
       Timeout: '300'
