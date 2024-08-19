@@ -1,7 +1,7 @@
 {
   "name": "notes",
   "version": "0.1.0",
-  "type": "module",
+  "type": "commonjs",
   "exports": {
     ".": "./index.js",
     "react/jsx-dev-runtime": "react/jsx-dev-runtime.js",
