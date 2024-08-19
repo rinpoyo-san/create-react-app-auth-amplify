@@ -2,6 +2,10 @@
   "name": "notes",
   "version": "0.1.0",
   "type": "module",
+  "exports": {
+    "react/jsx-dev-runtime": "./jsx-dev-runtime.js",
+    "react/jsx-runtime": "./jsx-runtime.js"
+  },
   "private": true,
   "dependencies": {
     "aws-amplify": "^4.3.14",
