@@ -14,7 +14,7 @@
     "@aws-amplify/ui-react": "^1.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^5.0.0"
+    "react-scripts": "^5.0.0",
     "typescript": "^5.5.4"
   },
   "resolutions": {
