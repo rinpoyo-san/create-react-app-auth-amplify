@@ -2,9 +2,11 @@
   "name": "notes",
   "version": "0.1.0",
   "type": "module",
-  "exports": {
-    "react/jsx-dev-runtime": "react/jsx-dev-runtime.js",
-    "react/jsx-runtime": "react/jsx-runtime.js"
+  "resolve": {
+    "alias": {
+      "react/jsx-dev-runtime": "react/jsx-dev-runtime.js",
+      "react/jsx-runtime": "react/jsx-runtime.js"
+    }
   },
   "private": true,
   "dependencies": {
