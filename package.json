@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "type": "module",
   "exports": {
-    "react/jsx-dev-runtime": "./jsx-dev-runtime.js",
-    "react/jsx-runtime": "./jsx-runtime.js"
+    "react/jsx-dev-runtime": "react/jsx-dev-runtime.js",
+    "react/jsx-runtime": "react/jsx-runtime.js"
   },
   "private": true,
   "dependencies": {
